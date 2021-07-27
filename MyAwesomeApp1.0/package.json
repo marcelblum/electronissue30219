@@ -1,0 +1,27 @@
+{
+  "name": "MyAwesomeApp",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "postinstall": "npm run package"
+  },
+  "author": "Marcel Blum",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.58",
+    "electron": "latest"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "config": {
+    "forge": {
+      "packagerConfig": {
+        "name": "MyAwesomeApp 1.0.0"
+      }
+    }
+  }
+}

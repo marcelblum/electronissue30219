@@ -1,0 +1,9 @@
+{
+  "name": "electronissue30219",
+  "version": "1.0.0",
+  "description": "bug demo",
+  "scripts": {
+    "install": "cd MyAwesomeApp1.0 && npm install && cd ../MyAwesomeApp4.0 && npm install"
+  },
+  "author": "Marcel Blum"
+}
